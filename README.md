@@ -13,5 +13,4 @@ This project aims to create a GPT-4-1106-preview model that gathers real-time in
 <li><strong>Daily Email Sending:</strong> Every morning at 8 AM, the results are sent via email. Access to Gmail is provided using a keyword and password for sending the email.</li>
 </ol>
 <p>The project is entirely developed in Python and utilizes the OpenAI API, Tavily API, and Gmail API.</p>
-<hr>
-<p>You can add this description to your project&#39;s GitHub page.</p>
+
