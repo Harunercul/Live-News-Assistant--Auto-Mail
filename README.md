@@ -4,11 +4,16 @@ This project aims to create a GPT-4-1106-preview model that gathers real-time in
 
 The project's workflow is as follows:
 
-1.Creating the News Assistant: Initially, specific rules are defined to create a news assistant.
-2.Using OpenAI API: An assistant is created using the OpenAI API key. However, there is a limitation where the OpenAI API key restricts internet access.
-3.Internet Access with Tavily API: To overcome this restriction, the Tavily API is used to gain internet access.
-4.Query and Research: The assistant is asked a question related to a specific day or topic, which it then researches online via the Tavily API, gathering results.
-5.Text Editing: The ChatGPT assistant evaluates, edits, and makes necessary additions or removals to the gathered text.
-7.Daily Email Sending: Every morning at 8 AM, the results are sent via email. Access to Gmail is provided using a keyword and password for sending the email.
+# 1.Creating the News Assistant: Initially, specific rules are defined to create a news assistant.
+
+# 2.Using OpenAI API: An assistant is created using the OpenAI API key. However, there is a limitation where the OpenAI API key restricts internet access.
+
+# 3.Internet Access with Tavily API: To overcome this restriction, the Tavily API is used to gain internet access.
+
+# 4.Query and Research: The assistant is asked a question related to a specific day or topic, which it then researches online via the Tavily API, gathering results.
+
+# 5.Text Editing: The ChatGPT assistant evaluates, edits, and makes necessary additions or removals to the gathered text.
+
+# 6.Daily Email Sending: Every morning at 8 AM, the results are sent via email. Access to Gmail is provided using a keyword and password for sending the email.
 
 The project is entirely developed in Python and utilizes the OpenAI API, Tavily API, and Gmail API.
